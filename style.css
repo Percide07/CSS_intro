@@ -1,0 +1,41 @@
+h1{
+    color: red;
+    font-family: roboto;
+    text-align: center;
+    background-color: brown;
+}
+.box p {
+    color: red;
+}
+      /* unvisited link */
+      a:link {
+        color: tomato;
+        text-decoration: none;
+    }
+    /* visited link */
+    a:visited {
+        color: orange;
+
+    }
+
+    /* mouse over element */
+   button:hover {
+        background-color: tomato;
+        cursor: pointer;
+    } 
+
+    /* selected link */
+    a:active{
+        color: #0000FF
+    }
+    dt {
+        font-weight: bold;
+    }
+    
+    dd {
+        margin: 3px;
+    }
+    
+    dd:nth-of-type(even) {
+        border: 2px solid orange;
+    }
